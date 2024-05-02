@@ -1,0 +1,5 @@
+const array = [1, 2, 3, 3, 4, 5,];
+const uniqueSet = new Set(array);
+
+const uniqueArray = Array.from(uniqueSet);
+console.log("Unique values in the array:", uniqueArray);
